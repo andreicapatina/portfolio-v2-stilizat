@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Portfolio</title>
 </head>
 <body>
     <header id="header">
-        <h1>Portfolio</h1>
+        <h1>MY Portfolio</h1>
         <nav>
             <a href="pages/about.html">About</a>
             <a href="#skills">Skills</a>
@@ -18,7 +20,7 @@
     <main>
         <section id="skills">
             <h2>Skills</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque doloribus sed autem magni enim doloremque est quod labore delectus quidem omnis, sint mollitia, alias velit dignissimos molestias incidunt. Ab animi esse ea, laborum, sint laudantium praesentium maiores excepturi labore error nulla eaque, voluptate neque cum minus pariatur ducimus temporibus officiis.</p>
+            <p>Sunt un student pasionat de tehnologie la Facultatea de Calculatoare, Informatică și Microelectronică din cadrul Universității Tehnice a Moldovei (UTM), unde urmez specializarea Calculatoare și Rețele. Am o puternică dorință de a învăța și de a mă dezvolta în domeniul IT, fiind mereu în căutare de noi provocări și oportunități de a-mi îmbunătăți cunoștințele și abilitățile</p>
             <h3>Here is a list of my hard skills</h3>
             <ul>
                 <li>Linux</li>
@@ -37,7 +39,7 @@
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus fugiat eius ab veritatis dicta praesentium optio neque assumenda quibusdam quae molestiae, fuga ex iusto ea sunt labore possimus asperiores aliquid odio et earum. Porro eum eaque ut sequi deleniti ab sint. Deleniti et beatae magni impedit id tempora pariatur fuga?</p>
+            <p>În timpul cursului de Front-End Development de la Orange Systems, am lucrat la mai multe proiecte care mi-au pus în evidență abilitățile și progresul în învățare. Mai jos sunt câteva dintre proiectele pe care le-am realizat:</p>
             <h3>Here are some of my projects</h3>
             <table>
                 <tr>
@@ -181,32 +183,16 @@
         <section id="contact">
             <h2>Contacts</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis non, hic dolore necessitatibus odit aperiam consectetur deleniti autem incidunt assumenda itaque molestiae illo quas doloribus error. Aliquid qui illo facilis itaque quo rem exercitationem distinctio ut, natus neque dolorum incidunt ullam cumque consectetur reprehenderit aut dolor consequatur. Cum, facere!</p>
-            <table>
-                <tr>
-                    <td>
-                        <img src="images/address-book-solid.svg" alt="Adress book icon" width="25px">
-                    </td>
-                    <td>
-                        <p>Căpățînă Andrei 067455512</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="images/checkpoint-flag-icon.png" alt="Checkpoint icon" width="25px">
-                    </td>
-                    <td>
-                        <p>Chisinau, Moldova</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="images/envelope-solid.svg" alt="Mail incon" width="25px">
-                    </td>
-                    <td>
-                        <p>andreicapatina1@gmai.com</p>
-                    </td>
-                </tr>
-            </table>
+            <p>
+                <i class="fas fa-user"></i>Căpățînă Andrei 067455512
+            </p>
+            <p>
+                <i class="fas fa-map-pin"></i>Chisinau, Moldova
+            </p>
+            <p>
+                <i class="fas fa-envelope"></i>andreicapatina1@gmai.com
+            </p>
+
             <form>
                 <h3>Scrieţi-mi un mesaj:</h3>
                 <input name="name" placeholder="Numele*" required>
@@ -224,11 +210,14 @@
     </main>
     <footer>
         <hr>
+        <i class="fab fa-instagram"></i>
         <a href="https://www.instagram.com/andrei_capatina1?igsh=azBkb2h2MHJydWw0" target="_blank">Instagram</a>
+        <i class="fab fa-linkedin"></i>
         <a href="https://www.linkedin.com/in/andreicapatina/" target="_blank">LinkedIn</a>
+        <i class="fab fa-github"></i>
         <a href="https://github.com/" target="_blank">GitHub</a>
         <p>&copy; 2024 My Portfolio. All rights reserved.</p>
-        <div style="position: fixed; right: 10px; bottom: 10px; text-align: right;">
+        <div id="back-to-top-button">
             <!-- Buton pentru a merge la header -->
             <a href="#header"><button>Back to top</button></a>
         </div>
